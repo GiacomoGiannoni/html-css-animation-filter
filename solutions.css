@@ -50,3 +50,119 @@
     transform: scale(1.5);
 }
 
+.ex-10-icon{
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0%{
+        transform: rotate(1turn)}
+}
+
+.ex-11-icon{
+    animation: spin2 3s linear ;
+}
+
+@keyframes spin2 {
+    0%{
+        transform: rotate(0)}
+    75%{
+        transform: rotate(315deg);
+    }    
+    100%{
+        transform: rotate(0);
+    }
+}
+
+.ex-12-button:hover .ex-12-top-white{
+    animation: Wh-top 2s linear;
+}
+
+@keyframes Wh-top {
+    0%{
+        left: 20%;
+    }
+    50%{
+        left: calc(100% - 60px);
+    }
+    100%{
+        left: 20%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: Wh-Bt 2s linear;
+}
+@keyframes Wh-Bt {
+    0% {
+        right: 20%;
+    }
+    50% {
+        right: calc(100% - 60px);
+    }
+    100% {
+        right: 20%;
+    }
+}
+
+.ex-13-button:hover .ex-13-top-white{
+    animation: wh13top 2s linear;
+}
+
+@keyframes wh13top {
+    0% {
+        left: 10%;
+        top: -10px;
+    }
+    30%{
+        left: calc(100% - 30px);
+        top: -10px;
+    }
+    45%{
+        left: calc(100% - 30px);
+        top: 100%;
+    }
+    75% {
+        left: 0;
+        top: 100%;
+    }
+    90% {
+        left: -15px;
+        top: -10px;
+    }
+    100% {
+        left: 10%;
+        top: -10px;
+    }
+}
+
+.ex-13-button:hover .ex-13-bottom-white{
+    animation: wh13bottom 2s linear;
+}
+
+@keyframes wh13bottom {
+    0% {
+        right: 20%;
+        bottom: -10px;
+    }
+    30%{
+        right: calc(100% - 30px);
+        bottom: -10px;
+    }
+    45%{
+        right: calc(100% - 30px);
+        bottom: 100%;
+    }
+    75% {
+        right: 0;
+        bottom: 100%;
+    }
+    90% {
+        right: -15px;
+        bottom: -10px;
+    }
+    100% {
+        right: 20%;
+        bottom: -10px;
+    }
+}

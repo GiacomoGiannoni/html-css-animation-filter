@@ -60,7 +60,7 @@
 }
 
 .ex-11-icon{
-    animation: spin2 3s linear ;
+    animation: spin2 2s linear ;
 }
 
 @keyframes spin2 {
